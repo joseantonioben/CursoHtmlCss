@@ -1,12 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- title - entre 55 y 65 caracteres -->
+    <title>Aprendiendo HTML</title>
+    <!-- description - no más de 165 caracteres -->
+    <meta name="description" content="En esta página estamos aprendiendo los fundamentos de HTML con @jonmircha">
+    <style>
+        h2 {
+            color: orangered;
+        }
+    </style>
 </head>
 <body>
-    
+    <h2>Aprendiendo HTML</h2>
+    <!-- Esto es un comentario -->
+    <!-- Enlaces de la sección de introducción a HTML y su documentación:
+    - https://www.w3.org/html/
+    - https://html.spec.whatwg.org/
+    - https://www.w3.org/blog/news/archives/7753
+    - https://developer.mozilla.org/es/docs/Web/HTML
+    - https://htmlreference.io
+    - https://desarrolloweb.com/articulos/11.php -->
+    <p>Hola, escribiendo mi primer documento HTML</p>
+    <p>Aprediendo sobre Diseño Web</p>
+    <hr>
+    <h2>Encabezados HTML</h2>
+    <h1>Encabezado de nivel 1 - sólo puede existir un h1 por documento html</h1>
+    <h2>Encabezado de nivel 2</h2>
+    <h3>Encabezado de nivel 3</h3>
+    <h4>Encabezado de nivel 4</h4>
+    <h5>Encabezado de nivel 5</h5>
+    <h6>Encabezado de nivel 6</h6>
+    <hr>
+    <h2>Etiquetas de Texto Básicas</h2>
+    <p>Un párrafo</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, facere. Doloribus ut harum magnam, enim illum sint corporis facilis recusandae impedit rerum quaerat cumque exercitationem pariatur delectus modi deleniti! Aut!</p>
+    <p>
+        Palabras en: <b>negrita</b>, <i>itálica</i>, <u>subrayado</u>, e=mc<sup>2</sup>, H<sub>2</sub>O, <mark>marcatexto</mark>, <small>letras pequeñas</small>
+    </p>
+    <hr>
+    <h2>Etiquetas de Texto Semánticas</h2>
+    <p>
+        <strong>Este texto es importante</strong>. <em>Este texto hace énfasis</em>
+    </p>
+    <blockquote>Yo sólo sé que no sé nada.</blockquote>
+    <cite>Sócrates</cite>
+    <hr>
+    <h2>Etiquetas de Saltos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, officiis iusto <br> harum non totam autem repudiandae similique commodi at, <br><br> eaque earum expedita reiciendis praesentium id odio maxime quidem accusantium deleniti!</p>
+    <hr>
+    <h2>Etiquetas de Formateo</h2>
+    <p>
+        <pre>
+            Tareas por Hacer
+            - Terminar de grabar las secciones de este curso.
+            - Editar en un solo vídeo.
+            - CSS
+            - Comenzar a grabar secciones CSS
+            - Editar en un solo Vídeo
+        </pre>
+    </p>
+    <p>
+        <code>
+            Este texto está en formato de código
+        </code>
+    </p>
+    <p>
+        <pre>
+            <code>
+                import React from "react";
+                import Title from "./Title";
+
+                function App {
+                    return &lt;Title/&gt;
+                }
+            </code>
+        </pre>
+    </p>
+    <hr>
+    <h2>Etiquetas Semánticas Estructurales</h2>
+    <div>Es una etiqueta contenedora que no tiene semántica</div>
+    <header>header - Cabecera de un sitio web o de una sección</header>
+    <main>
+        main - Define la sección principal del documento, sólo puede existir una etiqueta main por documento
+    </main>
+    <footer>
+        footer - Pie de página de un sitio web o de una sección
+    </footer>
+    <nav>nav - Representa una navegación</nav>
+    <article>
+        article - Representa una sección de autocontenido que por sí sola se explica
+    </article>
+    <aside>aside - Representa contenido complementario o secundario</aside>
+    <section>section - Representa una sección de contenido genérico</section>
+    <address>address - Representa una información de contacto</address>
+    <hr>
+    <h2>Etiquetas de Bloque VS Etiquetas de Línea</h2>
+    <div style="background-color: yellow; color: red;">La etiqueta de bloque por excelencia es la div, una etiqueta de bloque es aquella que genera saltos de línea con sus etiquetas hermanas.</div>
+    <span style="background-color: greenyellow;">La etiqueta de línea por excelencia es la span, una etiqueta de línea sólo ocupa el espacio necesario que tiene su contenido.</span>
+    <span>Hola soy otra span</span>
+    <hr>
+    <h2>Estilos CSS en HTML</h2>
 </body>
 </html>
